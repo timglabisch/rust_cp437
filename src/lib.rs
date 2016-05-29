@@ -1,2 +1,5 @@
-pub mod reader;
-pub mod cp437;
+mod reader;
+mod cp437;
+
+pub use reader::Reader;
+pub use cp437::convert_byte;
