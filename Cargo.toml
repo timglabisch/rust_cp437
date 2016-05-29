@@ -1,6 +1,8 @@
 [package]
 name = "cp437"
 version = "0.1.0"
-authors = ["timglabisch <tim@ainfach.de>"]
+description = "Module for MSDOS (CP437) Encoding"
+licence = "MIT"
+authors = ["timglabisch <rust@tim.ainfach.de>"]
 
 [dependencies]
