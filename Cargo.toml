@@ -4,5 +4,9 @@ version = "0.1.0"
 description = "Module for MSDOS (CP437) Encoding"
 license = "MIT"
 authors = ["timglabisch <rust@tim.ainfach.de>"]
+documentation = "https://github.com/timglabisch/rust_cp437"
+homepage = "https://github.com/timglabisch/rust_cp437"
+repository = "https://github.com/timglabisch/rust_cp437.git"
+readme = "README.md"
 
 [dependencies]
