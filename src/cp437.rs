@@ -4,9 +4,9 @@ pub fn convert_byte(b : &u8) -> &'static str {
 		0x06 => " ", // 	0x0006	//ACKNOWLEDGE
 		0x07 => " ", // 	0x0007	//BELL
 		0x08 => " ", // 	0x0008	//BACKSPACE
-		0x09 => " ", // 	0x0009	//HORIZONTAL TABULATION
+		0x09 => "\t", // 	0x0009	//HORIZONTAL TABULATION
 		0x0a => "\n", // 	0x000a	//LINE FEED
-		0x0b => "\t", // 	0x000b	//VERTICAL TABULATION
+		0x0b => " ", // 	0x000b	//VERTICAL TABULATION
 		0x0c => " ", // 	0x000c	//FORM FEED
 		0x0d => " ", // 	0x000d	//CARRIAGE RETURN
 		0x0e => " ", // 	0x000e	//SHIFT OUT
